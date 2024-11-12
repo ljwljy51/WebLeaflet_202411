@@ -1,13 +1,481 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Using SVG as an image tag</title>
-    <link href="index.css" rel="stylesheet" />
-  </head>
-  <body>
-    <img src="./leaflet.svg" alt="My Happy SVG" />
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  
+  
+  <style>
+   a,
+   button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+   </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="android-compact">
+    <div class="review">
+      <div class="_5-page-1">
+        <img class="x-a-02" src="x-a-01.png" />
+        <img class="_3" src="_30.svg" />
+      </div>
+      <div class="rv">
+        <div class="text-rv-ens">
+          <span>
+            <span class="text-rv-ens-span">
+              1st
+              <br />
+            </span>
+            <span class="text-rv-ens-span2">
+              송채원 (24 도공): 1파트 화이팅
+              <br />
+              유한송 (24 산림) : 나 화이팅
+              <br />
+            </span>
+            <span class="text-rv-ens-span3">
+              <br />
+              2nd
+              <br />
+            </span>
+            <span class="text-rv-ens-span4">
+              최주혁 (24 중경): 뭐
+              <br />
+              허건영 (24 전자): 과가 어디드라
+              <br />
+              <br />
+              3rd
+              <br />
+              한정원 (22 법학): 3파트 화이팅
+              <br />
+              국지환 (24 소융): 나 자신 화이팅
+              <br />
+              <br />
+              4th
+              <br />
+              박하늘 (21 전자): 하늘이 과가 어디지
+              <br />
+              김채연 (24 국통):
+              <br />
+              정동현 (24 건설):
+            </span>
+          </span>
+        </div>
+        <div class="text-name-ensemble">
+          <ol class="text-name-ensemble-span">
+            <li>Ensemble │ 지휘자 없는 앙상블</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rv-1234">
+        <div class="text-rv-234">
+          지현석 (23 소융): 나 김현민인데
+          <br />
+          박하늘 (21 전자): 아 하늘이 과가 어디지
+          <br />
+          한정원 (22 법학): 애들 과 외우기가 어렵네
+          <br />
+          송윤종 (24 물리): 기억할게
+        </div>
+        <div class="text-name-1234">
+          <ol class="text-name-1234-span">
+            <li>Quartet │ 1234 Quartet</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rv2">
+        <div class="text-rv-north">
+          이서현 (20 국문): 나 김현민인데
+          <br />
+          권순규 (22 소융): 아
+          <br />
+          송채원 (24 도공): 뭐
+          <br />
+          유한송 (24 산림): 과를 알았다
+        </div>
+        <div class="text-name-north">
+          <ol class="text-name-north-span">
+            <li>Quartet │ 수상할 정도로 북을 좋아하는..</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rv-20">
+        <div class="text-rv-20">
+          이서현 (20 국문): 나 김현민인데
+          <br />
+          이다경 (20 한역): 나 이가현인데
+          <br />
+          이재원 (20 소융): 나 황희성인데
+          <br />
+          조인영 (20 한역): 나 뭔데
+        </div>
+        <div class="text-name-20">
+          <ol class="text-name-20-span">
+            <li>Quartet │ Prelude No.20</li>
+          </ol>
+        </div>
+      </div>
+      <div class="rv-trio">
+        <div class="text-rv-trio">
+          김현민 (23 미광): 나 김현민인데
+          <br />
+          이가현 (22 소융): 나 이가현인데
+          <br />
+          황희성 (19 중경): 나 황희성인데
+        </div>
+        <div class="text-name-202">
+          <ol class="text-name-202-span">
+            <li>Trio │ 헌내기들</li>
+          </ol>
+        </div>
+      </div>
+      <div class="text-title-review">Review</div>
+    </div>
+    <div class="program">
+      <div class="_4-page-1">
+        <img class="x-a-03" src="x-a-03.png" />
+        <img class="_32" src="_31.svg" />
+      </div>
+      <div class="ensemble">
+        <div class="text-exp-st-1-en">
+          꽃날(flower day)은 서정적이고 부드러운 멜로디가 특징으로, 한국적인
+          정서를 담은 애잔하면서도 따뜻한 선율이 인상적입니다. 곡 전체가
+          잔잔하면서도 점차 감정을 고조시키는 흐름을 통해 마치 봄날 꽃잎이
+          흩날리는 듯한 서정적인 분위기를 자아냅니다.
+          <br />
+          클래식 기타 앙상블을 위해 편곡되어 원곡의 풍부한 감성을 새롭게
+          담아냈습니다. 이 편곡에서는 현악기 대신 클래식 기타의 따뜻하고 깊이 있는
+          선율을 통해 곡의 아름다움을 표현하려 노력했습니다. 현악기와는 다른
+          클래식 기타만의 부드럽고 섬세한 음색이 돋보이며, 이를 통해 꽃날의
+          서정적인 멜로디를 새롭게 감상할 수 있습니다.
+        </div>
+        <div class="text-st-1-en">꽃날 (Flower Day, 황진이OST) - 서웅석</div>
+        <div class="text-count-en">
+          1st
+          <br />
+          24 송채원, 24 유한송
+          <br />
+          2nd
+          <br />
+          24 최주혁, 24 허건영
+          <br />
+          3rd
+          <br />
+          22 한정원, 24 국지환
+          <br />
+          4th
+          <br />
+          21 박하늘, 24 김채연, 24 정동현
+          <br />
+          <br />
+          Mento 22 권순규
+        </div>
+        <div class="text-title-ensemble">
+          <ol class="text-title-ensemble-span">
+            <li>Ensemble</li>
+          </ol>
+        </div>
+      </div>
+      <div class="_1234-quartet">
+        <div class="text-exp-st-2-1234">
+          이 곡은 ‘오케스트라를 위한 모음곡’ 중 7번째 곡이며, “왈츠 2번” 혹은
+          ‘쇼스타코비치 왈츠’로 널리 알려졌습니다. 이름에서 알 수 있듯, 이 곡은
+          전통적인 왈츠의 형태를 따라 듣는 이에게 경쾌하고 활동적인 감상이 들게끔
+          합니다. 본디 오케스트라 곡인 만큼 다양한 소리의 구성을 통해 듣는 이에게
+          풍부함을 전하고, 메인으로 나오는 멜로디를 전환하며 흐름이 지루해지지
+          않도록 하는 것이 특징입니다. 이런 분위기를 클래식 기타만의 소리로
+          구현하였으니, 원곡과의 차이점 혹은 유사점을 생각하며 감상하시면 재밌을
+          것입니다.
+        </div>
+        <div class="text-exp-st-2-12342">
+          “Austin Tango”는 “Tango en Skäi”로 유명한 롤랑 디앙의 기타 콰르텟
+          곡입니다. 베이스의 피치카토 워킹을 서두로 어두운 곡조를 통해 음산한
+          분위기가 만들어집니다. 순간의 갑작스러운 박수 소리가 청중의 주의를
+          집중시키며, 멜로디와 불안정한 화음은 곡을 독특한 느낌으로 자아냅니다.
+          이후 비교적 부드럽고 따듯한 분위기를 지나 서두의 베이스 워킹으로 돌아와
+          더욱 강한 분위기를 끌어내며 곡이 마무리됩니다. 모든 파트들이 맡은 역할의
+          조화와 각자의 역량에 집중하여 들어주시면 좋은 감상을 이어나갈 수
+          있습니다.
+        </div>
+        <div class="text-st-2-1234">
+          Waltz II from Suite for Variety Orchestra
+          <br />
+          - Dimitri Shostakovich
+        </div>
+        <div class="text-song-title-1-1234">
+          Austin Tango
+          <br />
+          - Roland Dyens
+        </div>
+        <div class="text-count-1234">
+          23 지현석, 21 박하늘, 22 한정원, 24 송윤종
+        </div>
+        <div class="text-title-1234-quartet">
+          <ol class="text-title-1234-quartet-span">
+            <li>Quartet</li>
+          </ol>
+        </div>
+      </div>
+      <div class="north-quartet">
+        <div class="text-exp-st-2-nq">
+          차이콥스키(P. I. Tchaikovsky)의 호두까기 인형 모음곡 중 꽃의 왈츠(Valse
+          des fleurs)는 아름다운 선율과 풍부한 오케스트레이션이 특징입니다. 이
+          곡은 마법과 환상적인 분위기를 자아내며, 무도회의 우아함과 꽃이 피어나는
+          장면을 연상시키는 듯한 화려한 왈츠 리듬이 돋보입니다. 특히 곡이 진행되며
+          서정적이고 경쾌한 분위기가 절정을 이루어 청중에게 따뜻한 감동을
+          선사합니다.
+        </div>
+        <div class="text-song-title-2-nq">
+          Nutcracker Suite, Op.71a 8. Waltz of the Flowers(꽃의 왈츠)
+          <br />
+          - P. I. Tchaikovsky
+        </div>
+        <div class="text-exp-st-1-nq">
+          프랑스 작곡가 프랑수아 클레앙장(F. Kleynjans)의 Les 4 point cardinaux는
+          ‘네 개의 방위’를 주제로 한 곡으로, 각 방향의 특색과 상징성을 음악적으로
+          <br />
+          표현합니다. 이번 신입생 연주회에서는 그중 1악장인 ‘북’을 연주하며,
+          차분하면서도 깊이있는 울림을 통해 북쪽의 냉정하고 고요한 분위기를
+          전합니다. 서정적인 멜로디와 묵직한 여운을 즐기실 수 있습니다.
+        </div>
+        <div class="text-song-title-1-nq">
+          I. Nord of Les 4 Points Cardinaux(4개의 방위)
+          <br />
+          - Francis Kleynjans
+        </div>
+        <div class="text-count-nq">
+          20 이서현, 22 권순규, 24 송채원, 24 유한송
+        </div>
+        <div class="text-title-north-quartet">
+          <ol class="text-title-north-quartet-span">
+            <li>Quartet</li>
+          </ol>
+        </div>
+      </div>
+      <div class="_20-quartet">
+        <div class="text-exp-st-2-20-qua">
+          쇼팽의 프렐류드 21번 B-flat 장조는 그의 전주곡 중에서도 차분하고
+          감미로운 선율이 돋보이는 작품입니다. 느리고 고요한 템포 속에서 부드럽게
+          흐르는 선율은 마치 서정시를 연상시키고, 화음을 통해 감정을 섬세하게
+          나타냈습니다. 쇼팽 자신이 처한 불안과 고독 속에서 평온과 안식을
+          추구했으며, 이 곡은 그러한 쇼팽의 마음을 담아내고 있습니다.
+        </div>
+        <div class="text-song-title-2-20-qua">
+          Prelude in B flat major Op. 28 No. 21
+          <br />
+          – Frédéric Chopin
+        </div>
+        <div class="text-exp-st-1-20-qua">
+          쇼팽의 프렐류드 15번 D-flat 장조, &#039;빗방울 전주곡&#039;으로 잘
+          알려진 이 곡은, 지붕 위로 떨어지는 빗방울 소리를 음악으로 표현한
+          작품입니다. 이 곡에는 당시 쇼팽이 처한 불안과 고독감이 담겨있으며,
+          빗방울처럼 반복되는 음형이 이 곡의 가장 큰 특징입니다. 평화로운 장조의
+          선율과 강렬한 단조의 교차는 그의 감정 변화와 고요 속 내면적 갈등을
+          섬세하게 그리고 있습니다.
+        </div>
+        <div class="text-song-title-1-20-qua">
+          Prelude in D flat major Op. 28 No. 15 (Raindrop)
+          <br />
+          – Frédéric Chopin
+        </div>
+        <div class="text-count-20-qua">
+          20 이서현, 20 이다경, 20 이재원, 20 조인영
+        </div>
+        <div class="text-title-20-qua">
+          <ol class="text-title-20-qua-span">
+            <li>Quartet</li>
+          </ol>
+        </div>
+      </div>
+      <div class="trio">
+        <div class="text-exp-song-title-2-trio">
+          Claude Bolling의 &quot;Irlandaise&quot;는 재즈와 클래식이 조화를 이룬
+          곡으로, 밝고 경쾌한 리듬이 특징이며 자유롭고 활기찬 분위기를 더욱 풍성한
+          사운드로 느낄 수 있습니다.
+        </div>
+        <div class="text-song-title-2-trio">
+          Irlandaise
+          <br />
+          – Claude Bolling
+        </div>
+        <div class="text-exp-song-title-1-trio">
+          Justin Hurwitz의 &quot;City of Stars&quot;는 영화 &quot;La La
+          Land&quot;의 ost로, 잔잔하면서도 낭만적인 멜로디와 서정적인 가사가
+          어우러진 곡입니다. 사랑과 꿈을 그린 영화의 감성을 클래식 기타 연주로
+          감미롭고 은은하게 느낄 수 있습니다.
+        </div>
+        <div class="text-song-title-1-trio">
+          City of Stars (LaLa Land OST)
+          <br />
+          – Justin Hurwitz
+        </div>
+        <div class="text-count-trio">23 김현민, 19 황희성, 22 이가현</div>
+        <div class="text-title-trio">
+          <ol class="text-title-trio-span">
+            <li>Trio</li>
+          </ol>
+        </div>
+      </div>
+      <div class="text-title-program">Program</div>
+    </div>
+    <div class="intro">
+      <div class="_3-page-1">
+        <img class="x-a-04" src="x-a-05.png" />
+        <img class="_33" src="_32.svg" />
+      </div>
+      <div class="text-intro">
+        안녕하세요. 필뮤즈 2024년도 회장 23학번 지현석입니다. 오늘 신입생 연주회에
+        함께해주신 모든 분들께 진심으로 감사의 인사를 드립니다.
+        <br />
+        지난 50주년 기념 연주의 감동이 여전히 마음속에 남아있는 지금, 다시 이렇게
+        신입생 연주회로 여러분을 모시게 되어 기쁩니다. 이번 신입생
+        <br />
+        연주회는 2018년도 이후 처음으로 마련된 무대로, 특별히 저희 필뮤즈의 귀엽고
+        열정 가득한 신입생들이 주인공이 되어 준비한 자리입니다. 다소 부족한 부분이
+        있더라도 따뜻하게 지켜봐 주시면 감사하겠습니다. 오늘 찾아주신 모든
+        분들께서 즐겁고 특별한 추억을 만들어 가시기를 바라며, 바쁜 일정 속에서도
+        귀한 시간 내어주신 여러분께 다시 한번 깊은
+        <br />
+        감사의 말씀을 드립니다.
+      </div>
+      <div class="text-title-intro">Intro</div>
+    </div>
+    <div class="history">
+      <div class="_2-page-1">
+        <img class="x-a-05" src="x-a-07.png" />
+        <img class="_34" src="_33.svg" />
+      </div>
+      <div class="text-his-present">
+        2023.03.25 제 32회 신입생 환영 연주회
+        <br />
+        2023.09.16 제 55회 가을정기 연주회
+        <br />
+        2024.03.23 제 33회 신입생 환영 연주회
+        <br />
+        2024.09.28 창립 50주년 기념 가을정기 연주회
+      </div>
+      <div class="text-his-present2">
+        Today
+        <br />
+        2024.11.30 2024 신입생 연주회
+      </div>
+      <img class="img-elipsis-png" src="img-elipsis-png0.png" />
+      <div class="text-his-past">
+        1974.04.20. 창립
+        <br />
+        1974.05.29. 제 1회 정기연주회 “클래식의 여울”
+        <br />
+        1975.06.12. 제 2회 정기연주회 “클래식의 여울”
+        <br />
+        1975.09.24 자선 음악회
+        <br />
+        1976.05.01   제 4회 정기연주회 &quot;클래식의 여울&quot;
+        <br />
+        1976.10.18   전시회 음악회
+        <br />
+        1977.05.24   제 5회 정기연주회 &quot;클래식의 여울&quot;
+      </div>
+      <div class="text-title-h-istory">History</div>
+    </div>
+    <div class="about-title">
+      <div class="_1-page-2">
+        <img class="x-a-06" src="x-a-09.png" />
+        <img class="_2" src="_20.svg" />
+        <img class="_35" src="_34.svg" />
+      </div>
+      <div class="text-title">
+        신입생
+        <br />
+        연주회
+      </div>
+      <div class="text-ex-date">since 1974</div>
+      <div class="text-ex-name">KMU Classical Guitar Club</div>
+      <div class="text-place">국민대학교 종합복지관 B1 제3공연장</div>
+      <div class="text-date">2024.11.30(토) 18:00</div>
+      <div class="but-insta">
+        <img class="ellipse-3" src="ellipse-30.png" />
+        <div class="instagram">
+          필뮤즈
+          <br />
+          INSTAGRAM
+        </div>
+      </div>
+      <div class="but-dq">
+        <img class="ellipse-2" src="ellipse-20.png" />
+        <div class="daum-cafe">
+          필뮤즈
+          <br />
+          DAUM CAFE
+        </div>
+      </div>
+      <div class="but-yt">
+        <img class="ellipse-1" src="ellipse-10.png" />
+        <div class="youtube">
+          필뮤즈
+          <br />
+          YOUTUBE
+        </div>
+      </div>
+      <div class="text-ex-pm">
+        ‘사랑하는’ 이라는 뜻의 접사
+        <br />
+        ‘Phil’
+        <br />
+        <br />
+        그리스 신화의
+        <br />
+        시, 음악, 학예를 주관하는
+        <br />
+        9명의 여신들
+        <br />
+        ‘Muse’
+        <br />
+        <br />
+        합쳐서
+        <br />
+        “음악을 사랑하는 사람들”
+        <br />
+        “Phil-Muse”
+        <br />
+        이라는 뜻입니다.
+      </div>
+      <div class="text-title-about">About Phil-Muse</div>
+      <div class="rectangle-5"></div>
+      <div class="phil-muse">Phil-muse</div>
+      <div class="rectangle-6"></div>
+      <div class="history2">History</div>
+      <div class="rectangle-7"></div>
+      <div class="program2">Program</div>
+      <div class="rectangle-8"></div>
+      <div class="intro2">Intro</div>
+      <div class="rectangle-9"></div>
+      <div class="review2">Review</div>
+    </div>
+  </div>
+  
+</body>
 </html>
