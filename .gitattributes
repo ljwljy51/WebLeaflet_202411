@@ -1,0 +1,2 @@
+*.svg filter=lfs diff=lfs merge=lfs -text
+leaflet.svg filter=lfs diff=lfs merge=lfs -text
