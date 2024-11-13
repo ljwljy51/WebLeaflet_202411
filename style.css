@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 .android-compact,
 .android-compact * {
   box-sizing: border-box;
