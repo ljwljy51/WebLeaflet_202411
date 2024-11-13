@@ -10,7 +10,7 @@ html{
   background: #ffffff;
   height: 5219px;
   position: relative;
-  overflow: hidden;
+  overflow: scroll;
 }
 .review {
   background: #ffffff;
