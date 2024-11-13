@@ -261,7 +261,7 @@
   position: absolute;
   left: 0px;
   top: 1927px;
-  overflow-y: auto;
+  overflow-y: visible;
 }
 ._4-page-1 {
   width: 412px;
