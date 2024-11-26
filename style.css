@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 .review {
-  width: 412px;
+  width: 413px;
   height: 1198px;
   position: absolute;
   left: calc(50% - 206px);
@@ -306,7 +306,7 @@
   -webkit-text-stroke: 0.30000001192092896px #ffffff;
 }
 .program {
-  width: 412px;
+  width: 413px;
   height: 2238px;
   position: absolute;
   left: calc(50% - 206px);
@@ -765,12 +765,13 @@
   -webkit-text-stroke: 0.30000001192092896px #ffffff;
 }
 .intro {
-  width: 412px;
+  width: 413px;
   height: 431px;
   position: absolute;
   left: calc(50% - 206px);
   top: 1496px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .vector-bg-intro {
   width: 467.23px;
@@ -909,7 +910,7 @@
   -webkit-text-stroke: 0.30000001192092896px #ffffff;
 }
 .about-title {
-  width: 412px;
+  width: 413px;
   height: 946px;
   position: absolute;
   left: calc(50% - 206px);
