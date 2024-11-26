@@ -319,7 +319,7 @@
   position: absolute;
   left: calc(50% - 206px);
   top: -1931.22px;
-  overflow: visible;
+  overflow: hidden;
 }
 ._5-program {
   position: absolute;
@@ -923,7 +923,7 @@
   position: absolute;
   left: calc(50% - 206px);
   top: 0.75px;
-  overflow: visible;
+  overflow: hidden;
 }
 .text-1-page {
   position: absolute;
