@@ -1,4 +1,20 @@
 /* Figma Styles of your File */
+@font-face {
+  font-family: 'GyeonggiBatang-Regular';
+  src: url('./GyeonggiBatang-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'GyeonggiBatang-Bold';
+  src: url('./GyeonggiBatang-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'SCoreDream-1Thin';
+  src: url('./SCoreDream-1Thin.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Italiana-Regular';
+  src: url('./Italiana-Regular.ttf') format('truetype');
+}
 :root {
   /* Colors */
   /* Fonts */
