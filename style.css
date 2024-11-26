@@ -789,8 +789,7 @@
 }
 .text-intro {
   color: #ffffff;
-  text-align: left;
-  letter-spacing: 100%;
+  text-align: justify;
   font-family: "GyeonggiBatang-Regular", sans-serif;
   font-size: 11px;
   line-height: 26px;
