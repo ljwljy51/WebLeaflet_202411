@@ -312,6 +312,7 @@
   left: calc(50% - 206px);
   top: 1927px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .vector-bg-program {
   width: 413px;
@@ -916,6 +917,7 @@
   left: calc(50% - 206px);
   top: 0px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .vector-bg-1 {
   width: 413px;
