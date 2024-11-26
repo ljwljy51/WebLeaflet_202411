@@ -6,7 +6,8 @@
   background: #ffffff;
   height: 5363px;
   position: relative;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x:scroll;
 }
 .review {
   width: 413px;
