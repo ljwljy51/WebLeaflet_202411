@@ -311,7 +311,7 @@
   position: absolute;
   left: calc(50% - 206px);
   top: 1927px;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .vector-bg-program {
   width: 413px;
@@ -770,7 +770,7 @@
   position: absolute;
   left: calc(50% - 206px);
   top: 1496px;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .vector-bg-intro {
   width: 467.23px;
@@ -914,7 +914,7 @@
   position: absolute;
   left: calc(50% - 206px);
   top: 0px;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 .vector-bg-1 {
   width: 413px;
