@@ -6,7 +6,7 @@
   background: #ffffff;
   width: 412px;
   height: 5363px;
-  position: relative;
+  position: absolute;
   overflow: scroll;
 }
 .review {
