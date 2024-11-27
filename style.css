@@ -381,7 +381,7 @@ html{
 .text-count-en-34 {
   color: #ffffff;
   text-align: left;
-  word-break: keep-all;
+  word-wrap: keep-all;
   font-family: "GyeonggiBatang-Bold", sans-serif;
   font-size: 11px;
   line-height: 18px;
